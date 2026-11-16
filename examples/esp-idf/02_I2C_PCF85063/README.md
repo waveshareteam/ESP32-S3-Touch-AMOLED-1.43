@@ -1,35 +1,27 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
+# 02_I2C_PCF85063
 
-# _Sample project_
+[English](README.md) | [简体中文](README_ZH.md)
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## What It Does
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+Sets and reads the onboard PCF85063 RTC over I2C.
 
+## Hardware Required
 
+ESP32-S3-Touch-AMOLED-1.43 development board and a USB data cable.
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## How to Run
 
-## Example folder contents
+Open an ESP-IDF terminal in this directory and run with a version listed in the repository README:
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
+```bash
+idf.py set-target esp32s3 build flash monitor
 ```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+
+## Expected Result
+
+The log repeatedly prints the RTC date and time.
+
+## Troubleshooting
+
+The demo writes a fixed initial date and time on every boot; change it in the RTC example before using it as a clock.
