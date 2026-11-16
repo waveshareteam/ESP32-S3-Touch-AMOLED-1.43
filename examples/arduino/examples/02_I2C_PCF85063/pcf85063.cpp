@@ -129,7 +129,7 @@ void PCF85063_getTmString(int isYMD,uint8_t *outbuf)
 }
 /*demo*/
 void PCF85063_example(void* parmeter)
-{The date is initialized as 14:12:50 on August 20, 2024 (Tuesday)
+{ // The date is initialized as 14:12:50 on August 20, 2024 (Tuesday)
   //
   CTime tm = {2024,8,2,20,14,12,50};
   PCF85063_setTime(tm,1);
