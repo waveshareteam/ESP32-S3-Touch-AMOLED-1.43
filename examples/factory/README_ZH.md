@@ -12,7 +12,7 @@ ESP32-S3-Touch-AMOLED-1.43 开发板和可传输数据的 USB 线。 电池和 m
 
 ## 怎么运行
 
-在本目录打开 ESP-IDF 终端，使用 **v5.1.4**运行：
+在本目录打开 ESP-IDF 终端，使用 **v5.5.6**运行：
 
 ```bash
 idf.py set-target esp32s3 build flash monitor

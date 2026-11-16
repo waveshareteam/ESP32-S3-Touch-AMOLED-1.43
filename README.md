@@ -80,7 +80,7 @@ Libraries used by the sketches are bundled in [`examples/arduino/libraries`](exa
 | ESP-IDF | `v5.5.6`, `v6.1.1` | 8 |
 | Arduino-ESP32 | `3.3.12` | 7 |
 
-The factory project uses ESP-IDF `v5.1.4`; see [`examples/factory`](examples/factory/).
+The factory project uses ESP-IDF `v5.5.6`; see [`examples/factory`](examples/factory/).
 
 ## 📚 Resources
 

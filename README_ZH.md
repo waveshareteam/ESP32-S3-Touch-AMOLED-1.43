@@ -79,7 +79,7 @@ ESP32-S3-Touch-AMOLED-1.43 集成圆形 AMOLED 触摸屏、RTC、IMU 和 microSD
 | ESP-IDF | `v5.5.6`, `v6.1.1` | 8 |
 | Arduino-ESP32 | `3.3.12` | 7 |
 
-出厂工程使用 ESP-IDF `v5.1.4`，源码见 [`examples/factory`](examples/factory/README_ZH.md)。
+出厂工程使用 ESP-IDF `v5.5.6`，源码见 [`examples/factory`](examples/factory/README_ZH.md)。
 
 ## 📚 资料
 

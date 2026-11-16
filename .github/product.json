@@ -15,6 +15,6 @@
     "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PartitionScheme=app3M_fat9M_16MB,PSRAM=opi,USBMode=hwcdc,CDCOnBoot=cdc"
   },
   "factory_firmware": {
-    "esp_idf": "v5.1.4"
+    "esp_idf": "v5.5.6"
   }
 }

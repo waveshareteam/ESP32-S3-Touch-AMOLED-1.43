@@ -12,7 +12,7 @@ ESP32-S3-Touch-AMOLED-1.43 development board and a USB data cable. A battery and
 
 ## How to Run
 
-Open an ESP-IDF terminal in this directory and run with **v5.1.4**:
+Open an ESP-IDF terminal in this directory and run with **v5.5.6**:
 
 ```bash
 idf.py set-target esp32s3 build flash monitor
