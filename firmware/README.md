@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README_ZH.md)
 
-Ready-to-flash firmware tested on the ESP32-S3-Touch-AMOLED-1.43 board. Each file is a merged image flashed at `0x0`; the date (or upstream version) in the file name is its version. Older versions are kept; the newest is listed first.
+Ready-to-flash firmware tested on the ESP32-S3-Touch-AMOLED-1.43 board. Each file is a merged image flashed at `0x0`; the date (or upstream version) in the file name is its version.
 
 | File | Purpose |
 | --- | --- |
